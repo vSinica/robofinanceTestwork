@@ -1,0 +1,37 @@
+.grid{
+  display: grid;
+
+  grid-template-areas:
+          "n c";
+  grid-template-rows: 0fr 0fr;
+  grid-template-columns: 2fr 10fr;
+  /*grid-gap: 10px;*/
+
+}
+
+.customers{
+  grid-area: n;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.customer{
+  width: 500px;
+  border: 1px solid black;
+  line-height: 2px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.editCustomers{
+  grid-area: c;
+  width: 400px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
